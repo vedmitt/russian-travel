@@ -1,0 +1,22 @@
+.lead {
+    /*max-width: 984px;*/
+    /*max-height: 1005px;*/
+    /*min-width: 320px;*/
+    /*min-height: 406px;*/
+    /*width: calc(100% - 148*2);*/
+    margin: 56px 148px 0;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead{
+        margin: 48px 100% 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead{
+        margin: 48px 0 0;
+    }
+}
+
