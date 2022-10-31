@@ -1,5 +1,28 @@
 .intro {
-    max-width: 60%;
-    margin: 92px 30% 0 11%;
-    background-color: darkslategrey;
+    box-sizing: border-box;
+    width: 690px;
+    margin: 92px 100px 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 92px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 100%;
+        margin: 88px 0 0;
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 64px 0 0;
+        padding: 0 16px 0;
+    }
 }

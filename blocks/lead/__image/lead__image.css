@@ -1,11 +1,17 @@
 .lead__image {
+    margin: 64px auto 0;
     width: 100%;
+    align-self: flex-start;
 }
 
-/*@media screen and (max-width: 768px) {*/
-/*    .lead__image {*/
-/*        width: 100vw;*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        margin-top: 40px;
+    }
+}

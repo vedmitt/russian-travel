@@ -5,4 +5,19 @@
     line-height: 100px;
     text-align: center;
     margin: 0;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px) {
+    .lead__title{
+        font-size: calc(45px + 3vw);
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title{
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
