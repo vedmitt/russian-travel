@@ -5,7 +5,7 @@
     justify-content: space-between;
     width: 100%;
     margin: 0;
-    background-color: darkgrey;
+    padding: 28px 48px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .header {
         padding: 16px 16px 0;
     }

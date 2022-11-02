@@ -1,0 +1,27 @@
+.cover {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: calc(100% - 96px);
+    height: 100%;
+    margin: 92px 48px 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        margin: 92px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 90px 0 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover {
+        margin: 66px 0 0;
+    }
+}

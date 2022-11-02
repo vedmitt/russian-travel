@@ -6,21 +6,27 @@
     padding: 0;
     display: grid;
     gap: 80px;
-    background-color: darkgrey;
+}
+
+@media screen and (max-width: 1024px) {
+    .places{
+        width: calc(100% - 96px);
+        margin: 92px 48px 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .places{
         width: calc(100% - 48px);
-        margin: 88px 24px 0;
         gap: 73px;
+        margin: 88px 24px 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .places{
         width: 100%;
-        margin: 64px 0 0;
         gap: 50px;
+        margin: 64px 0 0;
     }
 }

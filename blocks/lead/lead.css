@@ -1,16 +1,21 @@
 .lead {
-    max-width: 984px;
-    max-height: 1005px;
-    min-width: 320px;
-    min-height: 406px;
     box-sizing: border-box;
-    margin: 56px auto 0;
+    width: calc(100% - 296px);
+    min-width: 320px;
+    margin: 56px 148px 0;
     padding: 0;
-    background-color: darkgrey;
 }
 
 @media screen and (max-width: 1024px) {
     .lead{
-        margin-top: 48px;
+        width: calc(100% - 96px);
+        margin: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+        margin: 48px 0;
     }
 }
